@@ -1,0 +1,116 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  background-color: #000;
+    font-family: "Roboto", sans-serif;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8rem;
+}
+input {
+  background-color: #06181C;
+  width: 46rem;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  color: #fff;
+}
+.search {
+  display: flex;
+  gap: 0.6rem;
+}
+button{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  background-color: #065E7C;
+  border-radius: 0.4rem;
+  padding: 0 2rem;
+  gap: 0.4rem;
+}
+button img {
+  width: 2rem;
+}
+button p {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+}
+table {
+  color: #fff;
+  margin: auto;
+  margin-top: 8rem;
+  width: 100rem;
+  text-align: left;
+  border-collapse: collapse;
+  border-radius: 0.8rem;
+}
+thead {
+  background-color: #092D38;
+}
+th {
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  font-weight: 400;
+}
+tbody {
+  background-color: #030B0D;
+}
+td {
+  padding: 1rem;
+}
+td.user {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  gap: 2rem;
+}
+td.user a p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+td.user a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #E1E1E6;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+td.user img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+td.repositories, td.followers {
+  font-size: 1.4rem;
+}
+td.remover {
+  width: 10rem;
+}
+td.remover button {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: bold;
+  padding: none;
+}
